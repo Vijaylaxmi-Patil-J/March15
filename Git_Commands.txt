@@ -3,6 +3,12 @@ git status
 
 git clone "HTTPS Link of Repository"
 
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git config --local --list
+
 git add --all
 
 git add "FileName"
@@ -10,3 +16,20 @@ git add "FileName"
 git commit -m "Message"
 
 git push
+
+git branch
+
+git checkout -b "March"
+
+git branch April
+
+git checkout March
+
+ git push --set-upstream origin March
+
+git merge March
+
+git push -u origin master
+
+git log 
+q
